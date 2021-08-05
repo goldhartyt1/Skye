@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'help',
+    name: 'alternatives',
     cooldown: 10,
-    description: 'Help command',
+    description: 'alternatives command',
     execute(client, message, args, Discord){
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#B9C500')
